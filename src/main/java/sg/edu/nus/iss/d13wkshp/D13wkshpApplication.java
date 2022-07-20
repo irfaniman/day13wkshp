@@ -34,7 +34,7 @@ public class D13wkshpApplication implements ApplicationRunner{
 			System.out.printf("Using %s as data directory\n", dataDir);
 
 		} else {
-			dbSvc.setDataDir(new File("/Users/irfaniman/data")); // /Users/<username>/data
+			dbSvc.setDataDir(new File("/Users/irfaniman/Desktop/data")); // /Users/<username>/data
 		}
 	}
 
